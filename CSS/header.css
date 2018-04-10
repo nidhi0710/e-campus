@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+
+.navbar{
+    color: white;
+    margin: 0px;
+}
+
+.navbar-brand{
+    padding-right: 500px;
+}
+
+nav{
+	background: black;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding-left: 50px;
+     box-sizing: border-box;
+     transition: .5s;
+     height: 30px;
+}
+
+nav ul{
+     float: right;
+     margin:0;
+     padding:0;
+     display:flex;
+}
+
+nav .small_hide{
+    display: none !important;
+}
+
+nav .hide{
+    display: inline !important;
+}
+
+ul a:hover{
+    /*background-color: ;*/
+    background: hsl(120,35%,50%) !important;
+    padding-bottom: 10px !important;
+}
